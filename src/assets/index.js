@@ -32,6 +32,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import codeial from "./codeial.png";
+import tshirt from "./tshirt.png";
+import issuetracker from "./issuetracker.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  codeial,
+  tshirt,
+  issuetracker,
 };

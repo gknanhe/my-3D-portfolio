@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  codeial,
+  tshirt,
+  issuetracker,
 } from "../assets";
 
 export const navLinks = [
@@ -271,6 +274,70 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Codeial",
+    description:
+      "Codeial is a Social Media Website designed using Full Stack Web Development through Back-End Technology of MEN Stack (MongoDB, ExpressJS, NodeJS), RedisDB, GulpJS & Passport Auths. Users are able to create, share the posts and connect with each other across the platform. This website is completely Responsive across all the Devices",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: codeial,
+    source_code_link: "http://16.170.173.59/",
+  },
+  {
+    name: "3D Tshirt",
+    description:
+      "a cool website created using threejs. user can upload the logos , images , textures and can also adjust color lo look how it will look on t-shirt.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tshirt,
+    source_code_link: "https://master--react-threejs-web.netlify.app/",
+  },
+  {
+    name: "Issue Tracker",
+    description:
+      "The Issue Tracker project is a web application designed to help users manage and track issues for their projects. Users can create projects, add issues to those projects, and categorize issues using labels. The application provides a user-friendly interface for creating, viewing, and searching issues. It also offers filtering options based on the author's name and issue labels.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: issuetracker,
+    source_code_link: "https://issue-tracker-web-rp4k.onrender.com/",
   },
 ];
 
