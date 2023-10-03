@@ -18,9 +18,47 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    //extract value
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  // service_l8u7gnn
+  // template_vn0mzk5
+  // jTDEAk1glFZsvLl8o
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_l8u7gnn",
+        "template_vn0mzk5",
+        {
+          from_name: form.name,
+          to_name: "Ganesh Nanhe",
+          from_email: form.email,
+          to_email: "cse18gknanhejd@gmail.com",
+          message: form.message,
+        },
+
+        "jTDEAk1glFZsvLl8o"
+      )
+      .then(() => {
+        setLoading(false);
+        alert("Thank you, I will get to you as soon as possible");
+      }),
+      (error) => {
+        setLoading(false);
+        console.log(error);
+
+        alert("Something went wrong.");
+      };
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
