@@ -35,6 +35,10 @@ import tripguide from "./tripguide.png";
 import codeial from "./codeial.png";
 import tshirt from "./tshirt.png";
 import issuetracker from "./issuetracker.png";
+import pricewise from "./pricewise.png";
+import todo from "./todo.png";
+import calculator from "./calculator.png";
+import superhero from "./superhero.png";
 
 export {
   logo,
@@ -69,6 +73,10 @@ export {
   jobit,
   tripguide,
   codeial,
+  pricewise,
+  todo,
   tshirt,
   issuetracker,
+  superhero,
+  calculator,
 };
