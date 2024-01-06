@@ -16,6 +16,7 @@ import {
   mongodb,
   git,
   meta,
+  codingninja,
   starbucks,
   tesla,
   shopify,
@@ -30,6 +31,8 @@ import {
   issuetracker,
   calculator,
   superhero,
+  jdcollege,
+  twelth,
 } from "../assets";
 
 export const navLinks = [
@@ -135,57 +138,108 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Coding Ninjas Career Camp",
+    company_name: "Coding Ninjas",
+    icon: codingninja,
+    iconBg: "#383E56",
+    date: "Oct 2022 - present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Learned basic to Advanced DSA in JAVA",
+      "Developed a strong command in backend as well as frontend",
+      ,
+    ],
+  },
+  {
+    title: "Bachelor of Technology (B.Tech) ",
+    company_name: "JD College of Engineering, Nagpur",
+    icon: jdcollege,
+    iconBg: "#383E56",
+    date: "June 2018 - July 2022",
+    points: [
+      "Completed Bachelors Degree in Computer Science.",
+      "During my 1st year I learned basics of engineering.",
+      "During my 2nd and 3rd year I learned core subjects as well as buid a mini project.",
+      "In 4th year I buid a big project in a group and passed the degree with 9.02 cgpa.",
+    ],
+  },
+  {
+    title: "Higher Secondary Education",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: twelth,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "june 2017 - mar 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed my Higher Secondary Education.",
+      "During my 11th and 12th grades, I took Math, Chemistry, and Biology.",
+      "It was the time when I develope an interest in computers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Starbucks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Starbucks",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "React Native Developer",
+  //   company_name: "Tesla",
+  //   icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2021 - Feb 2022",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -300,6 +354,7 @@ const projects = [
     ],
     image: codeial,
     source_code_link: "http://16.170.173.59/",
+    github_code_link: "https://github.com/gknanhe/codeial-nodejs-website",
   },
   {
     name: "Pricewise",
@@ -330,6 +385,7 @@ const projects = [
     ],
     image: pricewise,
     source_code_link: "https://pricewise-gknanhe.vercel.app/",
+    github_code_link: "https://github.com/gknanhe/pricewise",
   },
   {
     name: "ToDo",
@@ -360,6 +416,7 @@ const projects = [
     ],
     image: todo,
     source_code_link: "https://zippy-florentine-e4aede.netlify.app/",
+    github_code_link: "https://github.com/gknanhe/todo-Frontend-react",
   },
   {
     name: "3D Tshirt",
@@ -381,6 +438,7 @@ const projects = [
     ],
     image: tshirt,
     source_code_link: "https://master--react-threejs-web.netlify.app/",
+    github_code_link: "https://github.com/gknanhe/three-js-website",
   },
   {
     name: "Issue Tracker",
@@ -402,6 +460,7 @@ const projects = [
     ],
     image: issuetracker,
     source_code_link: "https://issue-tracker-web-rp4k.onrender.com/",
+    github_code_link: "https://github.com/gknanhe/issue-tracker-app",
   },
   {
     name: "SuperHero Hunter",
@@ -423,6 +482,7 @@ const projects = [
     ],
     image: superhero,
     source_code_link: "https://gknanhe.github.io/SuperHero-Hunter/",
+    github_code_link: "https://github.com/gknanhe/SuperHero-Hunter",
   },
   {
     name: "Simple Calculator",
@@ -444,6 +504,7 @@ const projects = [
     ],
     image: calculator,
     source_code_link: "https://gknanhe.github.io/simple_calculator/",
+    github_code_link: "https://github.com/gknanhe/simple_calculator",
   },
 ];
 

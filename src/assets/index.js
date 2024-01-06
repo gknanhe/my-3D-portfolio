@@ -39,6 +39,10 @@ import pricewise from "./pricewise.png";
 import todo from "./todo.png";
 import calculator from "./calculator.png";
 import superhero from "./superhero.png";
+import codingninja from "./codingninja.svg";
+import jdcollege from "./jdcollege.jpeg";
+import twelth from "./twelth.png";
+import linkedin from "./linkedin.png";
 
 export {
   logo,
@@ -47,6 +51,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,
@@ -65,6 +70,9 @@ export {
   typescript,
   threejs,
   nextjs,
+  codingninja,
+  jdcollege,
+  twelth,
   meta,
   shopify,
   starbucks,

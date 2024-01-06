@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+import { textVariant } from "../utils/motion";
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -21,8 +23,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Ganesh</span>
           </h1>
           <p className={`${styles.heroSubText} m-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web aplications
+            I develop user interfaces,
+            <br className="sm:block hidden" /> user-friendly websites and web
+            aplications
           </p>
         </div>
       </div>

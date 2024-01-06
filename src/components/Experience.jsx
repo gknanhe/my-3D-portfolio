@@ -15,6 +15,12 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#1d1836", color: "#fff" }}
+      // contentStyle={{
+      //   backgroundImage:
+      //     "linear-gradient(54deg, #151940, rgba(42,18,54,.3) 58%, #3a0d2e)",
+      //   color: "#fff",
+      //   backgroundColor: "rgba(0, 0, 0, 0.58)",
+      // }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -23,7 +29,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[60%] h-[60%] object-contain rounded-full"
           />
         </div>
       }
@@ -57,7 +63,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <h2 className={styles.sectionHeadText}>My Journey</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
