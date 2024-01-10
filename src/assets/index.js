@@ -43,7 +43,9 @@ import codingninja from "./codingninja.svg";
 import jdcollege from "./jdcollege.jpeg";
 import twelth from "./twelth.png";
 import linkedin from "./linkedin.png";
-
+import responsive from "./responsive.png";
+import intuitive from "./intuitive.png";
+import dynamic from "./dynamic.png";
 export {
   logo,
   backend,
@@ -87,4 +89,7 @@ export {
   issuetracker,
   superhero,
   calculator,
+  responsive,
+  dynamic,
+  intuitive,
 };

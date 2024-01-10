@@ -15,14 +15,7 @@ import {
   jquery,
   mongodb,
   git,
-  meta,
   codingninja,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   codeial,
   pricewise,
@@ -33,6 +26,9 @@ import {
   superhero,
   jdcollege,
   twelth,
+  responsive,
+  intuitive,
+  dynamic,
 } from "../assets";
 
 export const navLinks = [
@@ -244,30 +240,43 @@ const experiences = [
 
 const testimonials = [
   {
+    title: "Responsive",
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I specialize in creating responsive websites using Bootstrap, media queries, Tailwind, and other cutting-edge technologies. With a focus on user-centric design, I ensure a seamless experience across diverse devices.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: responsive,
   },
   {
+    title: "Dynamic",
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      " I excel at crafting dynamic websites using JavaScript, Node.js, and other backend technologies. With a focus on seamless user experiences and real-time functionalities, I bring a dynamic edge to web development.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: dynamic,
   },
   {
+    title: "Intuitive",
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "I have a strong preference for easy to use designs that prioritize user experience,I ensure that every design is user-friendly and seamlessly guides users through an engaging and intuitive journey.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: intuitive,
   },
 ];
+
+let nodejsColor = "text-purple-500";
+let reactColor = "text-indigo-500";
+let mongodbColor = "text-emerald-500";
+let expressColor = "text-yellow-500";
+let tailwindColor = "text-blue-500";
+let jsColor = "text-red-500";
+let cssColor = "text-green-500";
+let htmlColor = "text-orange-500";
+let threeColor = "text-sky-500";
 
 const projects = [
   // {
@@ -291,48 +300,6 @@ const projects = [
   //   image: carrent,
   //   source_code_link: "https://github.com/",
   // },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 
   {
     name: "Codeial",
@@ -341,21 +308,22 @@ const projects = [
     tags: [
       {
         name: "nodejs",
-        color: "blue-text-gradient",
+        color: nodejsColor,
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: expressColor,
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        color: mongodbColor,
       },
     ],
     image: codeial,
     source_code_link: "http://16.170.173.59/",
     github_code_link: "https://github.com/gknanhe/codeial-nodejs-website",
   },
+
   {
     name: "Pricewise",
     description:
@@ -363,30 +331,32 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: reactColor,
       },
 
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: tailwindColor,
       },
+
       {
         name: "nodejs",
-        color: "blue-text-gradient",
+        color: nodejsColor,
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: expressColor,
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        color: mongodbColor,
       },
     ],
     image: pricewise,
     source_code_link: "https://pricewise-gknanhe.vercel.app/",
     github_code_link: "https://github.com/gknanhe/pricewise",
   },
+
   {
     name: "ToDo",
     description:
@@ -394,24 +364,24 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: reactColor,
       },
 
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: tailwindColor,
       },
       {
         name: "nodejs",
-        color: "blue-text-gradient",
+        color: nodejsColor,
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: expressColor,
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        color: mongodbColor,
       },
     ],
     image: todo,
@@ -425,15 +395,15 @@ const projects = [
     tags: [
       {
         name: "nodejs",
-        color: "blue-text-gradient",
+        color: nodejsColor,
       },
       {
         name: "react",
-        color: "green-text-gradient",
+        color: reactColor,
       },
       {
         name: "threejs",
-        color: "pink-text-gradient",
+        color: threeColor,
       },
     ],
     image: tshirt,
@@ -447,15 +417,15 @@ const projects = [
     tags: [
       {
         name: "nodejs",
-        color: "blue-text-gradient",
+        color: nodejsColor,
       },
       {
         name: "express",
-        color: "green-text-gradient",
+        color: expressColor,
       },
       {
         name: "mongodb",
-        color: "pink-text-gradient",
+        color: mongodbColor,
       },
     ],
     image: issuetracker,
@@ -469,43 +439,43 @@ const projects = [
     tags: [
       {
         name: "html",
-        color: "blue-text-gradient",
+        color: htmlColor,
       },
       {
         name: "css",
-        color: "green-text-gradient",
+        color: cssColor,
       },
       {
         name: "js",
-        color: "pink-text-gradient",
+        color: jsColor,
       },
     ],
     image: superhero,
     source_code_link: "https://gknanhe.github.io/SuperHero-Hunter/",
     github_code_link: "https://github.com/gknanhe/SuperHero-Hunter",
   },
-  {
-    name: "Simple Calculator",
-    description:
-      "Its a simple calculator application with some basic operations.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: calculator,
-    source_code_link: "https://gknanhe.github.io/simple_calculator/",
-    github_code_link: "https://github.com/gknanhe/simple_calculator",
-  },
+  // {
+  //   name: "Simple Calculator",
+  //   description:
+  //     "Its a simple calculator application with some basic operations.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: htmlColor,
+  //     },
+  //     {
+  //       name: "css",
+  //       color: cssColor,
+  //     },
+  //     {
+  //       name: "js",
+  //       color: jsColor,
+  //     },
+  //   ],
+  //   image: calculator,
+  //   source_code_link: "https://gknanhe.github.io/simple_calculator/",
+  //   github_code_link: "https://github.com/gknanhe/simple_calculator",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
