@@ -29,6 +29,7 @@ import {
   responsive,
   intuitive,
   dynamic,
+  expense_tracker,
 } from "../assets";
 
 export const navLinks = [
@@ -355,6 +356,39 @@ const projects = [
     image: pricewise,
     source_code_link: "https://pricewise-gknanhe.vercel.app/",
     github_code_link: "https://github.com/gknanhe/pricewise",
+  },
+
+  {
+    name: "Expense Tracker",
+    description:
+      "The Expense Tracker project is a web application designed to help users manage their finances efficiently. With features like user authentication, transaction management, and data visualization, users can easily track their income and expenses, categorize transactions, and gain insights into their spending habits. Built with user experience and security in mind, it offers a seamless experience for users to take control of their financial health.",
+    tags: [
+      {
+        name: "react",
+        color: reactColor,
+      },
+
+      {
+        name: "tailwind",
+        color: tailwindColor,
+      },
+
+      {
+        name: "nodejs",
+        color: nodejsColor,
+      },
+      {
+        name: "express",
+        color: expressColor,
+      },
+      {
+        name: "mongodb",
+        color: mongodbColor,
+      },
+    ],
+    image: expense_tracker,
+    source_code_link: "https://expense-tracker-frontend-sable.vercel.app/",
+    github_code_link: "https://github.com/gknanhe/expense-tracker-frontend",
   },
 
   {

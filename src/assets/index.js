@@ -46,6 +46,7 @@ import linkedin from "./linkedin.png";
 import responsive from "./responsive.png";
 import intuitive from "./intuitive.png";
 import dynamic from "./dynamic.png";
+import expense_tracker from "./expensetracker.png";
 export {
   logo,
   backend,
@@ -92,4 +93,5 @@ export {
   responsive,
   dynamic,
   intuitive,
+  expense_tracker,
 };
